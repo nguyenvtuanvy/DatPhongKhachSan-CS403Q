@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXMlJvLyy8Ea3w6DGV2GVyAAAAAACAAAAAAAQZgAAAAEAACAAAAAEPgKOn7G/GWLAuuvMEXaGm9rxH17PMu22e8Pc5IHdQgAAAAAOgAAAAAIAACAAAAAl7L8ZG1C4nRLJ5NZt+pTQDxHjleJOGMPX5w+NvIQJISAAAACDK2Saj36tLDGmBRvLWRbfdyMg4Y4sfzRQqm4N0hGtS0AAAABS5qXSYhJale/MEILnx6tD3qPU+bm8XcOdjIALxCZ8ESlvmcEl3CcjlyRAOse/mmuj1kpJQxmJof5l85ELhhrw</EncryptedPassword>
+    <_PublishTargetUrl>ftp://site12871.siteasp.net/wwwroot</_PublishTargetUrl>
+    <History>True|2024-11-22T03:44:10.5045122Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/DevExpress.Charts.v24.1.Core.dll">
+      <publishTime>11/15/2024 22:35:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.CodeParser.v24.1.dll">
+      <publishTime>11/15/2024 22:34:41</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.Desktop.v24.1.dll">
+      <publishTime>11/15/2024 22:34:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v24.1.dll">
+      <publishTime>11/15/2024 22:34:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.DataAccess.v24.1.dll">
+      <publishTime>11/15/2024 22:34:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.DataVisualization.v24.1.Core.dll">
+      <publishTime>11/15/2024 22:34:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Drawing.v24.1.dll">
+      <publishTime>11/15/2024 22:34:48</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll">
+      <publishTime>11/15/2024 22:34:52</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Objects.v24.1.dll">
+      <publishTime>11/15/2024 22:34:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.ReportsV2.v24.1.dll">
+      <publishTime>11/15/2024 22:34:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.ReportsV2.Web.v24.1.dll">
+      <publishTime>11/15/2024 22:34:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Security.v24.1.dll">
+      <publishTime>11/15/2024 22:34:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Security.Xpo.v24.1.dll">
+      <publishTime>11/15/2024 22:34:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.v24.1.dll">
+      <publishTime>11/15/2024 22:34:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Validation.v24.1.dll">
+      <publishTime>11/15/2024 22:34:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Validation.Web.v24.1.dll">
+      <publishTime>11/15/2024 22:34:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Web.v24.1.dll">
+      <publishTime>11/15/2024 22:34:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Xpo.v24.1.dll">
+      <publishTime>11/15/2024 22:34:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Images.v24.1.dll">
+      <publishTime>11/15/2024 22:34:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v24.1.Core.dll">
+      <publishTime>11/15/2024 22:35:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v24.1.Core.dll">
+      <publishTime>11/15/2024 22:35:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v24.1.Drawing.dll">
+      <publishTime>11/15/2024 22:35:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Persistent.Base.v24.1.dll">
+      <publishTime>11/15/2024 22:35:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll">
+      <publishTime>11/15/2024 22:35:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.PivotGrid.v24.1.Core.dll">
+      <publishTime>11/15/2024 22:35:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v24.1.Core.dll">
+      <publishTime>11/15/2024 22:35:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v24.1.Core.dll">
+      <publishTime>11/15/2024 22:35:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v24.1.Export.dll">
+      <publishTime>11/15/2024 22:35:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Sparkline.v24.1.Core.dll">
+      <publishTime>11/15/2024 22:35:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v24.1.dll">
+      <publishTime>11/15/2024 22:35:12</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v24.1.dll">
+      <publishTime>11/15/2024 22:34:41</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxTreeList.v24.1.dll">
+      <publishTime>11/15/2024 22:34:41</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.Resources.v24.1.dll">
+      <publishTime>11/15/2024 22:35:13</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v24.1.dll">
+      <publishTime>11/15/2024 22:34:38</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Xpo.v24.1.dll">
+      <publishTime>11/15/2024 22:35:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v24.1.dll">
+      <publishTime>11/15/2024 22:35:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v24.1.Core.dll">
+      <publishTime>11/15/2024 22:35:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v24.1.dll">
+      <publishTime>11/15/2024 22:35:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v24.1.Web.dll">
+      <publishTime>11/15/2024 22:35:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v24.1.Web.WebForms.dll">
+      <publishTime>11/15/2024 22:35:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraScheduler.v24.1.Core.dll">
+      <publishTime>11/15/2024 22:35:24</publishTime>
+    </File>
+    <File Include="bin/DoAnCS403Q.Module.dll">
+      <publishTime>11/22/2024 09:53:21</publishTime>
+    </File>
+    <File Include="bin/DoAnCS403Q.Module.pdb">
+      <publishTime>11/22/2024 09:53:21</publishTime>
+    </File>
+    <File Include="bin/DoAnCS403Q.Module.Web.dll">
+      <publishTime>11/22/2024 09:53:22</publishTime>
+    </File>
+    <File Include="bin/DoAnCS403Q.Module.Web.pdb">
+      <publishTime>11/22/2024 09:53:22</publishTime>
+    </File>
+    <File Include="bin/DoAnCS403Q.Web.dll">
+      <publishTime>11/22/2024 10:39:46</publishTime>
+    </File>
+    <File Include="bin/DoAnCS403Q.Web.pdb">
+      <publishTime>11/22/2024 10:39:46</publishTime>
+    </File>
+    <File Include="bin/mscorlib.dll">
+      <publishTime>04/11/2014 23:08:06</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/21/2024 14:54:45</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>11/21/2024 14:54:45</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/21/2024 14:54:45</publishTime>
+    </File>
+    <File Include="Images/Logo.svg">
+      <publishTime>11/21/2024 14:54:45</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>11/21/2024 14:54:45</publishTime>
+    </File>
+    <File Include="Model.Desktop.xafml">
+      <publishTime>11/21/2024 14:54:45</publishTime>
+    </File>
+    <File Include="Model.Tablet.xafml">
+      <publishTime>11/21/2024 14:54:45</publishTime>
+    </File>
+    <File Include="Model.xafml">
+      <publishTime>11/21/2024 14:54:45</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/22/2024 09:53:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

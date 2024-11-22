@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Đặt Phòng Khách Sạn">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@edb756a1-655a-42a9-8af4-edac7a4dcb51" Caption="Quản Lý" ImageName="BO_Note" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@a874ec1e-f222-4fc9-8fcf-79b82487ac98" Caption="Phòng" ViewId="Room_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.1.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+  </Views>
+</Application>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kYOMGC6mcFz3tTQ0Oa96l87XV0pT/LEuTHaMhwxCRJ/o9xjgri4queK+MJrqxs7V7F8fzFYkvg9r5gAO7c+ltg==",
+  "success": true,
+  "projectFilePath": "D:\\công nghệ phần mềm\\DoAnCS403Q\\DoAnCS403Q.Module\\DoAnCS403Q.Module.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages\\devexpress.expressapp.codeanalysis\\24.1.7\\devexpress.expressapp.codeanalysis.24.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

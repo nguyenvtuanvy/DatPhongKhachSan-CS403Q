@@ -1,0 +1,167 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "DevExpress.ExpressApp.CodeAnalysis/24.1.7": {
+        "type": "package"
+      },
+      "DoAnCS403Q.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.ExpressApp.CodeAnalysis": "24.1.7"
+        },
+        "compile": {
+          "bin/placeholder/DoAnCS403Q.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DoAnCS403Q.Module.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win": {
+      "DevExpress.ExpressApp.CodeAnalysis/24.1.7": {
+        "type": "package"
+      },
+      "DoAnCS403Q.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.ExpressApp.CodeAnalysis": "24.1.7"
+        },
+        "compile": {
+          "bin/placeholder/DoAnCS403Q.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DoAnCS403Q.Module.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win-x64": {
+      "DevExpress.ExpressApp.CodeAnalysis/24.1.7": {
+        "type": "package"
+      },
+      "DoAnCS403Q.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.ExpressApp.CodeAnalysis": "24.1.7"
+        },
+        "compile": {
+          "bin/placeholder/DoAnCS403Q.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DoAnCS403Q.Module.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win-x86": {
+      "DevExpress.ExpressApp.CodeAnalysis/24.1.7": {
+        "type": "package"
+      },
+      "DoAnCS403Q.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.ExpressApp.CodeAnalysis": "24.1.7"
+        },
+        "compile": {
+          "bin/placeholder/DoAnCS403Q.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DoAnCS403Q.Module.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevExpress.ExpressApp.CodeAnalysis/24.1.7": {
+      "sha512": "XnqtNYE9cYls4DhF13kzDgaP/XIKIYJzksyyMpFMAJiNNdv0lJribPVYTgjDiK/ZEmwgOIk0/YsCLJ5Wq9Yc5w==",
+      "type": "package",
+      "path": "devexpress.expressapp.codeanalysis/24.1.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/DevExpress.ExpressApp.CodeAnalysis.v24.1.dll",
+        "devexpress.expressapp.codeanalysis.24.1.7.nupkg.sha512",
+        "devexpress.expressapp.codeanalysis.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "DoAnCS403Q.Module/1.0.0": {
+      "type": "project",
+      "path": "../DoAnCS403Q.Module/DoAnCS403Q.Module.csproj",
+      "msbuildProject": "../DoAnCS403Q.Module/DoAnCS403Q.Module.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.2": [
+      "DevExpress.ExpressApp.CodeAnalysis >= 24.1.7",
+      "DoAnCS403Q.Module >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\công nghệ phần mềm\\DoAnCS403Q\\DoAnCS403Q.Module.Web\\DoAnCS403Q.Module.Web.csproj",
+      "projectName": "DoAnCS403Q.Module.Web",
+      "projectPath": "D:\\công nghệ phần mềm\\DoAnCS403Q\\DoAnCS403Q.Module.Web\\DoAnCS403Q.Module.Web.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\công nghệ phần mềm\\DoAnCS403Q\\DoAnCS403Q.Module.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net452"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net452": {
+          "projectReferences": {
+            "D:\\công nghệ phần mềm\\DoAnCS403Q\\DoAnCS403Q.Module\\DoAnCS403Q.Module.csproj": {
+              "projectPath": "D:\\công nghệ phần mềm\\DoAnCS403Q\\DoAnCS403Q.Module\\DoAnCS403Q.Module.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net452": {
+        "dependencies": {
+          "DevExpress.ExpressApp.CodeAnalysis": {
+            "target": "Package",
+            "version": "[24.1.7, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

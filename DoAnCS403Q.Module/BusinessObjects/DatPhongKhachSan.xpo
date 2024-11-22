@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9ed0cd25-4d29-48c7-aeb8-f266392783d2" namespace="DoAnCS403Q.Module.BusinessObjects.DatPhongKhachSan" dataBaseShemaInfo="H4sIAAAAAAAEAN1YbW/bNhD+XqD/wcjn0OKbKLKQXbRJVxTdiiJph30LjuQxESZLnl6c5N+Psh03TtLNQwMb6zfxuTuQD+/h8aj89c2sHC2waYu6mhyxMT16PX35In8LLZ53dQOX+KEK9Sh6Ve2rm7aYHF113fxVklxfX4+vxbhuLhNOKUv++O3Xc3eFMyBF1XZQOTzaRPl/jzqKs45G+RewJbbDlMvxHXIPuIM+wQynZ3U9y5Nv443Lu2rApl3TY56sBxvjadEOwNe5hw6nAco2Om2DG9/3feE/+ClzngoWMhJkRon0DIh2VhEtUIcUggLt8mTtvAk+qct+VrVbq/8uHA0Dh5VxWsXPPLkHbDn+E73/SvE+TUEDAE8DQYqGSG0NAS8ZSVPveIBghHlMM4YnP8C0iTm86G7nB6BrBSq0mhIA5omkIiWaBySMu4CoDAVln5vuvCncAagGH6QzWSCG8yjggS940IQrY0WWSqppeG6qf/VQdUV3ezGP9aWu9k86cqZcqkCcFJLI4D3RUrAo7DR1lAcujXpu0rH2dX27f66pRZkyGitUhpxIkUoCxiiCNhjmYoZTyXfm+hS6rrM71+ZzbBZLqe+hPFPwaJQwJPMhJVJyRyDojMQjTDMXhFXZ40T//8qzcplPtQVClyoGFmlmji0JO44OgtU/Sb3iTtFUWkHizRMzGjAj1lpNMFPGIHCrOd2rnIdW42Kfmk49lcpTJJkQww5kjFgBnMRbSTOjA2f+8eX0I5peXsSFP4CsmQqp8Jx4z3W8hi0SrYMiSjjkkHlu3e653rVMrzJ5EL7CMRs0ABEMI1+pY2YldZG+khkYC09l9pnu4kM0WdKlIA0xaG0sWkaTqF4WyVMjuVBKaPOTFK1UWR9bC0EYYqzKPPYbBmM3rRRnmfdMgdy9fd6laK3H31zy4dGG/nNTuyU4Slbw76sX3vQUF+9u5g227fgUOhgvuByz49HaPBlG42xMj0cnfdn1DU4q7LsGyuPR596WhfuIt1/qP7GaWK09i12FzyhFaSBP7qZYzndSQttiOyTgrN/sbv7Gx6VhKG7W61pB533Ygs5wVi/woeMKfeh7Eh+q06+Vu4LqEuNZXo5XW/PUGvK4M7Eb7YoDr+07y8jfY4VNlNdJPZth1bVrjT6Ct5xPsS0u4+cvRZTCg4ht2zLsFEvs8E3b1q6ALqbsLuYJwzLgU1+Wg8ze4hUsirqJKgoQ9REP2EPLyxd58uDfwfRv2/1N5mQQAAA=" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="24.1.7.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="24.1.7.0" name="DatPhongKhachSan" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="73ee04f8-f25a-4ff2-9989-1b2e4c1cc4e3">
+      <xpObject Id="1cd031f7-f470-4d1a-8cb6-83e8f5af6a8c" name="Room" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Room" designerFileName="Room.Designer" className="Room" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Room" customAttributes="DefaultProperty(&quot;name&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="c42517d6-2f9f-447e-831e-9fdd6cd8d820">
+            <field Id="30faa25f-e0e9-48b9-ad41-55dc2faf939c" name="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3190c10a-466f-43e9-bb15-1f18e2c84136">
+            <field Id="b3e6eb80-aa1d-4035-82fe-12cfee690a6b" name="room_type" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="baa7afed-1e38-438f-9dd7-4d54a9bc06e7">
+            <field Id="fdf4c97f-9220-4a1d-ada8-269b3754080f" name="price" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;### ### ### ###&quot;),&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;### ### ### ###&quot;)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5812d70e-d21e-41c2-bba5-0da59e41c746">
+            <field Id="df40246f-c434-4fdd-8431-4855c02f2496" name="quantity_person" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2fa0f983-c02e-4c09-9200-5f2239632664">
+            <field Id="5be45107-f7e2-4354-a996-ebf91c754542" name="status" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="fd38411a-a594-461d-b368-6f1118d22236" sourceCollectionName="Room_Services" name="Room_ServiceReferencesRoom" targetFieldName="room_id">
+            <xpObjectMoniker Id="5d046d0e-7335-4f71-b3a2-90a8198f21db" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="b6728429-a216-4e72-96ec-a9c8803ff34f">
+            <collectionField Id="688b171d-fba8-4deb-a4f1-8555d883b536" name="Room_Services" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="daffa95c-ee5e-4225-9195-38c722773c81">
+      <xpObject Id="0ade9639-7df5-442c-af87-69007cf3b676" name="Service" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Service" designerFileName="Service.Designer" className="Service" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Service" customAttributes="DefaultProperty(&quot;name&quot;)">
+        <fields>
+          <generalXpObjectHasFields Id="1c54ed84-9ebd-4e79-a801-52a6563bb994">
+            <field Id="6c7d58ba-0431-4a1c-a7c1-442cc2ecafb8" name="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d18b8e9c-aeed-4cb3-a442-112f8748f90b">
+            <field Id="2c6054b3-5dc5-4fe7-bbb8-e7699ea2b820" name="price" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;### ### ### ###&quot;),&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;### ### ### ###&quot;)" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="9a9e9e07-16b7-4a8b-bebf-c6129e75f53b" sourceCollectionName="Room_Services" name="Room_ServiceReferencesService" targetFieldName="service_id">
+            <xpObjectMoniker Id="5d046d0e-7335-4f71-b3a2-90a8198f21db" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="0738a3c2-f2f6-4908-81f3-37b3c6a62488">
+            <collectionField Id="dee834d6-1ecf-4fba-8fc5-6d4372d89002" name="Room_Services" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="d0e4114a-9484-4cc3-be00-5159a776e53d">
+      <xpObject Id="5d046d0e-7335-4f71-b3a2-90a8198f21db" name="Room_Service" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="Room_Service" designerFileName="Room_Service.Designer" className="Room_Service" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="Room_Service">
+        <fields>
+          <generalXpObjectHasFields Id="1c1b1455-6da1-4913-b481-5036693a69a2">
+            <field Id="616f53d2-dd28-40be-88f6-63ce2a7d2bc0" name="room_id" virtualColumnType="Room" logicalType="Room" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8171304a-9687-4ae0-afef-eb7244cb63cf">
+            <field Id="3c1bf8aa-31e8-4481-b40c-dd647a9ba1db" name="service_id" virtualColumnType="Service" logicalType="Service" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4ce92a7f-5093-462b-92a7-436488ba66f3">
+            <field Id="b34c5a49-9ebb-4a98-98f1-310942366389" name="quantity" columnType="Double" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4c6226e8-b033-4993-841a-07fc83975e00">
+            <field Id="56bd8553-1ee1-42dd-9e5f-66217dd16a4c" name="price" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8e2edff3-f8fb-44d9-9e63-77161d04baf9">
+            <persistentAlias Id="fe5de5a3-59fe-4b1d-8313-de6a27212c19" name="total_price" columnType="Decimal" virtualColumnType="Decimal" expression="ToDecimal([quantity]) * [price]" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;### ### ### ###&quot;),&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;### ### ### ###&quot;)" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
